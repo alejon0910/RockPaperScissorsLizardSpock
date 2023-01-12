@@ -27,11 +27,11 @@ class GUI_Interface:
             self.game.find_winner()
 
             if self.game.round_result == "win":
-                playsound(r"C:\Users\evern\Downloads\Rock Paper Scissors\Rock Paper Scissors\sounds\win.wav")
+                playsound(r"sounds\win.wav")
             elif self.game.round_result == "lose":
-                playsound(r"C:\Users\evern\Downloads\Rock Paper Scissors\Rock Paper Scissors\sounds\lose.wav")
+                playsound(r"sounds\lose.wav")
             else:
-                playsound(r"C:\Users\evern\Downloads\Rock Paper Scissors\Rock Paper Scissors\sounds\tie.wav")
+                playsound(r"sounds\tie.wav")
 
             print(f"\n{self.game.report_round()}")
             print(f"\n{self.player0.name} {self.player0.score} - {self.player1.score} {self.player1.name}")
