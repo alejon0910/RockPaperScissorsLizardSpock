@@ -109,26 +109,16 @@ class GameGUI(tk.Frame):
 
         self.logic = GUI_Interface()
 
-        self.rock_photo = tk.PhotoImage(
-            file=r"images\rock.png")
-        self.paper_photo = tk.PhotoImage(
-            file=r"images\paper.png")
-        self.scissors_photo = tk.PhotoImage(
-            file=r"images\scissors.png")
-        self.lizard_photo = tk.PhotoImage(
-            file=r"images\lizard.png")
-        self.spock_photo = tk.PhotoImage(
-            file=r"images\spock.png")
-        self.greyrock_photo = tk.PhotoImage(
-            file=r"images\rockGrey.png")
-        self.greypaper_photo = tk.PhotoImage(
-            file=r"images\paperGrey.png")
-        self.greyscissors_photo = tk.PhotoImage(
-            file=r"images\scissorsGrey.png")
-        self.greylizard_photo = tk.PhotoImage(
-            file=r"images\lizardGrey.png")
-        self.greyspock_photo = tk.PhotoImage(
-            file=r"images\spockGrey.png")
+        self.rock_photo = tk.PhotoImage(file=r"images\rock.png")
+        self.paper_photo = tk.PhotoImage(file=r"images\paper.png")
+        self.scissors_photo = tk.PhotoImage(file=r"images\scissors.png")
+        self.lizard_photo = tk.PhotoImage(file=r"images\lizard.png")
+        self.spock_photo = tk.PhotoImage(file=r"images\spock.png")
+        self.greyrock_photo = tk.PhotoImage(file=r"images\rockGrey.png")
+        self.greypaper_photo = tk.PhotoImage(file=r"images\paperGrey.png")
+        self.greyscissors_photo = tk.PhotoImage(file=r"images\scissorsGrey.png")
+        self.greylizard_photo = tk.PhotoImage(file=r"images\lizardGrey.png")
+        self.greyspock_photo = tk.PhotoImage(file=r"images\spockGrey.png")
 
         self.next_frame_button = tk.Button(self, text="Quit",
                                            command=self.next_frame, font="Metropolis")
