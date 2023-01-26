@@ -103,26 +103,26 @@ class GameGUI(tk.Frame):
         self.logic = GUI_Interface()
 
         self.user_option_photos = (tk.PhotoImage(
-                                       file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\rock.png"),
+                                       file=r"images\rock.png"),
                                    tk.PhotoImage(
-                                       file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\paper.png"),
+                                       file=r"images\paper.png"),
                                    tk.PhotoImage(
-                                       file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\scissors.png"),
+                                       file=r"images\scissors.png"),
                                    tk.PhotoImage(
-                                       file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\lizard.png"),
+                                       file=r"images\lizard.png"),
                                    tk.PhotoImage(
-                                       file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\spock.png"))
+                                       file=r"images\spock.png"))
 
         self.cpu_option_photos = (tk.PhotoImage(
-                                      file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\rockGrey.png"),
+                                      file=r"images\rockGrey.png"),
                                   tk.PhotoImage(
-                                      file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\paperGrey.png"),
+                                      file=r"images\paperGrey.png"),
                                   tk.PhotoImage(
-                                      file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\scissorsGrey.png"),
+                                      file=r"images\scissorsGrey.png"),
                                   tk.PhotoImage(
-                                      file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\lizardGrey.png"),
+                                      file=r"images\lizardGrey.png"),
                                   tk.PhotoImage(
-                                      file=r"C:\Users\bigal\Documents\OneDrive_2022-12-01\Rock Paper Scissors\images\spockGrey.png"))
+                                      file=r"images\spockGrey.png"))
 
         self.next_frame_button = tk.Button(self, text="Quit",
                                            command=self.next_frame, font="Metropolis")
